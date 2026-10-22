@@ -1,0 +1,19 @@
+{
+  "name": "azzam",
+  "owner": { "name": "Gamal Eldien", "url": "https://gamaleldien.com" },
+  "metadata": {
+    "description": "Azzam, AZM X's expert agent for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "azzam",
+      "source": "./",
+      "description": "AZM X's expert agent. First skill: Azzam Writing, Arabic-first UX writing and SEO articles for azmx.sa.",
+      "version": "0.1.0",
+      "author": { "name": "Gamal Eldien" },
+      "category": "productivity",
+      "keywords": ["azmx", "arabic", "ux-writing", "seo", "content", "saudi"]
+    }
+  ]
+}

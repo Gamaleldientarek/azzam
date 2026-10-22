@@ -1,0 +1,63 @@
+---
+name: azzam-writing
+description: Azzam Writing, AZM X's writing craft for azmx.sa, Arabic first. Use for any words a visitor reads on the AZM X website or in its content channels, including UX copy (buttons, links, form labels, errors, empty and success states, page sections), SEO articles and blog posts, service and location pages, titles, meta descriptions, slugs and alt text, content written to be cited by ChatGPT, Gemini, Perplexity and Google AI answers, briefs built from the SEO radar, reviews of a draft, and turning an article into LinkedIn and newsletter copy. Triggers include "Azzam", "write an article", "blog post", "SEO copy", "UX copy", "microcopy", "error message", "button text", "meta description", "brief", "review this draft", and "rank for".
+---
+
+# Azzam Writing
+
+Every word on azmx.sa does one of three jobs: help a visitor act, rank for a search a Saudi buyer makes, or be the source an AI assistant quotes. Write for the job, in Arabic first, from facts that exist.
+
+## Load first, every time
+
+| What | Where | Why |
+|---|---|---|
+| AZM X voice | `~/.claude/skills/azmx-brand/references/voice-and-tone.md` | The four dimensions, the no-AI-tells mechanics, the pre-publish checklist. Do not restate it; apply it. |
+| Audience and core message | `~/.claude/skills/azmx-brand/references/audiences-and-messaging.md` | Pick the motion (B2G or B2B) and the persona before the first line. |
+| Arabic craft | the `jee-arabic` skill | Written Arabic, not translated English; punctuation; the checker. In a cloud session without it, follow the Arabic rules in `docs/content/string-bank.md`. |
+| AZM X facts | `docs/content/evidence-bank.md`, `docs/content/string-bank.md`, `docs/content/entity-facts.md` | The only source for claims, names, figures and fixed wording. |
+| Site rules | `CLAUDE.md` at the repository root | Positioning, «المنصة», no mixed-language sentences, Jimmy owns his edits. |
+
+Then the reference for the job:
+
+| Job | Reference |
+|---|---|
+| Interface copy: buttons, links, forms, errors, states, sections | [references/ux-writing.md](references/ux-writing.md) |
+| Article, blog post, service or location page, metadata | [references/seo-articles.md](references/seo-articles.md) |
+| Pages meant to be quoted by AI assistants; entity consistency; the monthly citation check | [references/ai-answers.md](references/ai-answers.md) |
+| A ready prompt shape (blog brief, article, case study, newsletter, LinkedIn) | `~/.claude/skills/azmx-brand/references/content-prompts.md`, then the house rules here override it |
+
+## The flow for one piece
+
+1. **Pick.** From the SEO radar (`next_actions`, then `cluster` and `serp`) or from Jimmy's request. Check the target URL and that no other page already serves the intent.
+2. **Brief.** One page, in the shape in `seo-articles.md`. Name the expert who will sign before drafting.
+3. **Evidence.** List every fact the piece needs and its line in the evidence bank. Anything missing becomes an open fact with an owner; never a guess.
+4. **Arabic draft.** The full body, written to the page's real fields (the Blog CMS shape, or the template slots). Leave one marked slot, `[EXPERT PASSAGE]`, where the expert adds what they saw first-hand.
+5. **Expert pass.** The expert writes the passage, edits and signs. Their name goes on the byline.
+6. **English.** Written as an original for an English reader, with English keywords from the radar. Same section order as the Arabic (Framer gives one page node to both languages).
+7. **Gate.** Run the tests below. Fix, then run them again.
+8. **Hand-off.** Jimmy approves. `site-content` writes it into the CMS as a draft (backup, both languages); Jimmy publishes.
+9. **Register and check.** Record the URL against its keyword IDs in the radar. After 28 days, read clicks, CTR, position and enquiries; rewrite the title if CTR is low.
+
+UX copy follows steps 3, 4, 6, 7 and 8 only.
+
+## The gate
+
+A piece ships only when every answer is yes.
+
+1. **Job:** can you say in one sentence what the reader gets and what they can do next?
+2. **Truth:** does every number, name, quote and claim have a line in the evidence bank with status *approved* or *public*?
+3. **Rules:** on an SEO page, a service page or an article, are there no client names or project figures (unless Jimmy approved them for this piece)?
+4. **Arabic:** does it read as written in Arabic (the `jee-arabic` checker passes; no mixed-language sentence; RLM before a Latin name)?
+5. **Voice:** does it pass the azmx-brand pre-publish checklist (no em-dash habit, no triads, none of the banned intensifiers, no emojis, three hashtags at most)?
+6. **Search:** is the primary keyword in the title, the H1 and the first paragraph, written naturally, in each language's own phrasing?
+7. **Answer first:** does the first paragraph answer the query on its own?
+8. **Fit:** does every string fit its field or slot in both languages?
+9. **Links:** at least one service page, one related article or case study, and descriptive anchors?
+10. **Authorship:** is a named expert on the byline, with their first-hand passage in the text?
+11. **Distinct:** could a competitor paste this over their logo? If yes, sharpen it.
+
+## Where the work goes
+
+- Drafts: `docs/content/drafts/YYYY-MM-DD-<slug>.md`, one file per piece, in the field-by-field layout in `seo-articles.md`, so `site-content` can deliver it without rewriting.
+- Findings and reasons: `review.md` (newest first). Status: `task.md`.
+- A fact you confirmed, or a new approved quote: add it to the evidence bank with its source and date. A new fixed term: add it to the string bank. One source of truth per fact.
