@@ -44,9 +44,10 @@ The Blog collection has fixed fields. The article is written to them, field by f
 | Description | Meta description and card summary | Under 155 characters; why this is worth the reader's minute. |
 | First Paragraph | The answer | 60 to 120 words that answer the query on their own; the keyword in the first sentence. |
 | Second, Third, Fourth Paragraph Title | The three H2s | Phrased as the questions people ask (page one, "People also ask", the cluster's terms). |
-| Second, Third, Fourth Paragraph | The body | Formatted text: H3s, short lists and links are allowed. Typical shape: why it matters now in Saudi Arabia; how to do it (the method, with `[EXPERT PASSAGE]`); what to do next or how to measure it, with two or three short questions answered as H3s when page one shows them. |
-| Pull Quote | The expert's line | The sharpest sentence from the expert's own passage, quoted exactly. |
-| Within Article Image, Image Caption, Within Article Image Alt | The one inline image | A caption that says something the text does not; alt that carries the meaning. |
+| Second, Third, Fourth Paragraph | The body | Formatted text: H4 subheadings, short lists, bold lead-ins and links. **Subheadings are H4, never H3**: the site's articles use H4, which the template styles to match; H3 falls back to a different font. Typical shape: why it matters now in Saudi Arabia; how to do it (the method, with `[EXPERT PASSAGE]`); what to do next or how to measure it, with two or three short questions answered as H4s when page one shows them. |
+| Pull Quote | The expert's line | The sharpest sentence from the expert's own passage, quoted exactly. Its tinted box hides when the field is empty: leave it empty until the expert's line exists, never a placeholder. |
+| Within Article Image, Image Caption, Within Article Image Alt | The one image in the frame | The frame is 569 px tall with a fluid width (square at 1024 px, about 1.27:1 at 1440 px) and crops to fill. Use an image that survives any crop: a centred brand render, or an example composed for the frame with everything important in the middle. Never a diagram with text near its edges. The caption is one takeaway from the section the image sits in, and takes the article's tint. |
+| Diagrams | Inside the rich text | Place diagrams as images inside the paragraph fields (`<img src alt>` before the heading they follow): they render at full column width, uncropped, in both languages, each language with its own version. |
 | Thumbnail, Thumbnail Alt | The card image | From the AZM X image library unless a real photo exists. |
 | Author | Byline | «بقلم <اسم الخبير>» / "By <expert name>". Never «بقلم فريق عزم إكس». |
 | Article Category | Filter | An existing category only. |

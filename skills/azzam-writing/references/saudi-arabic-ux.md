@@ -29,6 +29,7 @@ Never mix registers inside one sentence, and never change register between two s
 | «الطلب»، «المعاملة» | «الأوردر» | «المعاملة» for government procedures. |
 | «السلة»، «إتمام الطلب»، «التوصيل»، «استرداد المبلغ» | «الكارت»، «الشيك أوت»، «الدليفري»، «الريفند» | Arabic words exist and are understood; use them. |
 | «ريال»، «ر.س» | «SAR» inside an Arabic sentence | See the riyal sign in section 8. |
+| «برمجيًا»، «في البرمجة»، «عند التطوير» | «الشيفرة»، «الشيفرة البرمجية» | «الشيفرة» reads as a cipher, not as code. Name the activity instead: «ضبط الاتجاه برمجيًا». «الكود» only in developer-facing copy. |
 
 ## 3. Words that sound Egyptian or Levantine in a Saudi product
 
