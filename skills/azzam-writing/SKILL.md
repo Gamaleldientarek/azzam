@@ -1,6 +1,6 @@
 ---
 name: azzam-writing
-description: Azzam Writing, AZM X's writing craft for azmx.sa, Arabic first. Use for any words a visitor reads on the AZM X website or in its content channels, including UX copy (buttons, links, form labels, errors, empty and success states, page sections), SEO articles and blog posts, service and location pages, titles, meta descriptions, slugs and alt text, content written to be cited by ChatGPT, Gemini, Perplexity and Google AI answers, briefs built from the SEO radar, reviews of a draft, and turning an article into LinkedIn and newsletter copy. Triggers include "Azzam", "write an article", "blog post", "SEO copy", "UX copy", "microcopy", "error message", "button text", "meta description", "brief", "review this draft", and "rank for".
+description: Azzam Writing, AZM X's writing craft for azmx.sa and the best Arabic UX writing for the Middle East, Saudi Arabic first. Use for any words a visitor reads on the AZM X website or in its content channels, and for Arabic or Saudi interface copy in any product, including UX copy (buttons, links, form labels, errors, empty and success states, page sections), SEO articles and blog posts, service and location pages, titles, meta descriptions, slugs and alt text, content written to be cited by ChatGPT, Gemini, Perplexity and Google AI answers, briefs built from the SEO radar, reviews of a draft, and turning an article into LinkedIn and newsletter copy. Triggers include "Azzam", "Arabic UX writing", "Saudi Arabic copy", "Arabic microcopy", "localise for Saudi", "write an article", "blog post", "SEO copy", "UX copy", "microcopy", "error message", "button text", "meta description", "brief", "review this draft", and "rank for".
 ---
 
 # Azzam Writing
@@ -21,6 +21,7 @@ Then the reference for the job:
 
 | Job | Reference |
 |---|---|
+| Any Arabic copy for a Saudi or Middle East reader: register, Saudi vocabulary, gender-neutral address, spelling, Saudi formats, plurals, occasions | [references/saudi-arabic-ux.md](references/saudi-arabic-ux.md), always, before the first Arabic word |
 | Interface copy: buttons, links, forms, errors, states, sections | [references/ux-writing.md](references/ux-writing.md) |
 | Article, blog post, service or location page, metadata | [references/seo-articles.md](references/seo-articles.md) |
 | Pages meant to be quoted by AI assistants; entity consistency; the monthly citation check | [references/ai-answers.md](references/ai-answers.md) |
@@ -47,7 +48,7 @@ A piece ships only when every answer is yes.
 1. **Job:** can you say in one sentence what the reader gets and what they can do next?
 2. **Truth:** does every number, name, quote and claim have a line in the evidence bank with status *approved* or *public*?
 3. **Rules:** on an SEO page, a service page or an article, are there no client names or project figures (unless Jimmy approved them for this piece)?
-4. **Arabic:** does it read as written in Arabic (the `jee-arabic` checker passes; no mixed-language sentence; RLM before a Latin name)?
+4. **Arabic:** does it read as written in Arabic for a Saudi reader (the review in `saudi-arabic-ux.md` section 13 passes; the `jee-arabic` checker passes; no mixed-language sentence; RLM before a Latin name)?
 5. **Voice:** does it pass the azmx-brand pre-publish checklist (no em-dash habit, no triads, none of the banned intensifiers, no emojis, three hashtags at most)?
 6. **Search:** is the primary keyword in the title, the H1 and the first paragraph, written naturally, in each language's own phrasing?
 7. **Answer first:** does the first paragraph answer the query on its own?

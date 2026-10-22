@@ -4,7 +4,7 @@ AZM X's expert agent for Claude Code. Azzam works through skills, one craft each
 
 | Skill | What it does |
 |---|---|
-| **Azzam Writing** (`azzam-writing`) | Arabic-first UX writing and SEO content for azmx.sa: buttons, forms, errors and page sections; articles, service and location pages; titles, descriptions and alt text; content written to be quoted by AI assistants; briefs from the SEO radar; reviews of drafts. |
+| **Azzam Writing** (`azzam-writing`) | The best Arabic UX writing for the Middle East, Saudi Arabic first: register, Saudi vocabulary, gender-neutral address, spelling, Saudi formats and plurals. Also Arabic-first UX writing and SEO content for azmx.sa: buttons, forms, errors and page sections; articles, service and location pages; titles, descriptions and alt text; content written to be quoted by AI assistants; briefs from the SEO radar; reviews of drafts. |
 
 ## Install
 
