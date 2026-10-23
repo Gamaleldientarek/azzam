@@ -26,6 +26,7 @@ Then the reference for the job:
 | Article, blog post, service or location page, metadata | [references/seo-articles.md](references/seo-articles.md) |
 | Pages meant to be quoted by AI assistants; entity consistency; the monthly citation check | [references/ai-answers.md](references/ai-answers.md) |
 | A ready prompt shape (blog brief, article, case study, newsletter, LinkedIn) | `~/.claude/skills/azmx-brand/references/content-prompts.md`, then the house rules here override it |
+| Any layout, HTML or visual the piece needs (an article's example image, a diagram, a section mock-up) | the `frontend-design:frontend-design` skill for the craft, with the `azmx-brand` skill for colours, type, the chevron and the image library; `azmx-brand` wins where they disagree |
 
 ## The flow for one piece
 
