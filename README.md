@@ -1,5 +1,8 @@
 # Azzam (عزّام)
 
+[![Tests](https://github.com/Gamaleldientarek/azzam/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/Gamaleldientarek/azzam/actions/workflows/check.yml)
+[![Release](https://github.com/Gamaleldientarek/azzam/actions/workflows/release.yml/badge.svg)](https://github.com/Gamaleldientarek/azzam/releases)
+
 ## Meet AZZAM!
 
 Azzam is AZM X's expert agent for Claude Code and its Arabic UX writer. Its standard is the best Arabic UX writing in the Middle East, with Saudi Arabic as home ground: a Saudi reader trusts what Azzam writes on the first read, because it sounds written in Riyadh for them, not translated for them.
