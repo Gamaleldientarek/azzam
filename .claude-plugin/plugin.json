@@ -1,8 +1,24 @@
 {
   "name": "azzam",
   "version": "0.3.0",
-  "description": "Azzam (عزّام), AZM X's expert agent for Claude Code. Its first skill, Azzam Writing, covers Arabic-first UX writing and SEO articles for azmx.sa: interface copy, articles, service pages, metadata and content AI assistants can quote.",
-  "author": { "name": "Gamal Eldien", "url": "https://gamaleldien.com" },
+  "description": "Azzam (عزّام), AZM X's expert agent for Claude Code. Its first skill, Azzam Writing, covers Arabic-first UX writing and content for any website AZM X writes for, starting with azmx.sa, and for every newsletter and email AZM X sends: interface copy, articles, service pages, metadata, emails and content AI assistants can quote.",
+  "author": {
+    "name": "Gamal Eldien",
+    "url": "https://gamaleldien.com"
+  },
   "repository": "https://github.com/Gamaleldientarek/azzam",
-  "keywords": ["azmx", "arabic", "ux-writing", "seo", "content", "saudi"]
+  "keywords": [
+    "azmx",
+    "arabic",
+    "ux-writing",
+    "seo",
+    "content",
+    "email",
+    "newsletter",
+    "saudi"
+  ],
+  "dependencies": [
+    "frontend-design@claude-plugins-official",
+    "superpowers@claude-plugins-official"
+  ]
 }

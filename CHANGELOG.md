@@ -1,0 +1,26 @@
+# Changelog
+
+Newest first. Each section becomes the notes of its GitHub release.
+
+## 0.3.0 (2026-10-23)
+
+- **Any website, every email.** Azzam now writes for any website AZM X writes for, not only azmx.sa: the AZM X brands' sites and client sites too. For a site that is not azmx.sa, it asks for that site's facts and fields first and never borrows AZM X's evidence.
+- **Newsletters and emails.** A new reference, `references/email-newsletters.md`, built from a study of the newsletter templates and every email AZM X sends to people: campaigns, report teasers, announcements, and the confirmation, welcome and thank-you emails.
+- **Government and enterprise accounts.** The README sets out what Azzam applies when it writes for government (B2G) and enterprise (B2B) readers.
+- **Three outside skills.** The agent preloads Using Superpowers (`superpowers:using-superpowers`) at the start of every task and AZM X Brand (`azmx-brand`) for any AZM X copy, voice or visual work. Frontend Design (`frontend-design:frontend-design`) loads through the Skill tool when a piece has a layout, HTML or a visual; `azmx-brand` wins where they disagree.
+- **Dependencies.** The plugin declares Frontend Design and Superpowers from `claude-plugins-official` as dependencies, so installing Azzam installs them.
+- **Tests.** A static check that GitHub runs on every push and pull request, and a live test that proves the three skills preload.
+- **Releases.** Pushing a tag `azzam--vX.Y.Z` publishes a GitHub release with this changelog's notes.
+- **Meet AZZAM!** A new opening for the README.
+
+## 0.2.1 (2026-10-23)
+
+Article rules learned on the first preview: subheadings are H4, never H3; the Blog image frame crops, so diagrams go inside the rich text; the pull quote stays empty until the expert's line exists; and Saudi copy names the coding activity instead of using the Arabic word that reads as a cipher.
+
+## 0.2.0 (2026-10-22)
+
+Saudi Arabic UX writing. A new reference, `saudi-arabic-ux.md`, covers register by surface, Saudi vocabulary, Egyptian and Levantine words to avoid, the white dialect, gender-neutral address, Arabic-first sentences, spelling, Saudi formats (ID, address, IBAN, the riyal sign, calendars), the six Arabic plural forms, occasions, government services and the wider Middle East. The skill loads it before any Arabic word, and the gate checks it.
+
+## 0.1.0 (2026-10-22)
+
+First release: the Azzam agent and the Azzam Writing skill, with three references (UX writing, SEO articles, AI answers). AZM X's facts stay in the private website repository (`docs/content/`).

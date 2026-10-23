@@ -1,6 +1,12 @@
 {
   "name": "azzam",
-  "owner": { "name": "Gamal Eldien", "url": "https://gamaleldien.com" },
+  "owner": {
+    "name": "Gamal Eldien",
+    "url": "https://gamaleldien.com"
+  },
+  "allowCrossMarketplaceDependenciesOn": [
+    "claude-plugins-official"
+  ],
   "metadata": {
     "description": "Azzam, AZM X's expert agent for Claude Code.",
     "version": "0.3.0"
@@ -9,11 +15,22 @@
     {
       "name": "azzam",
       "source": "./",
-      "description": "AZM X's expert agent. First skill: Azzam Writing, Arabic-first UX writing and SEO articles for azmx.sa.",
+      "description": "AZM X's expert agent. First skill: Azzam Writing, Arabic-first UX writing and content for any website AZM X writes for, and for its newsletters and emails.",
       "version": "0.3.0",
-      "author": { "name": "Gamal Eldien" },
+      "author": {
+        "name": "Gamal Eldien"
+      },
       "category": "productivity",
-      "keywords": ["azmx", "arabic", "ux-writing", "seo", "content", "saudi"]
+      "keywords": [
+        "azmx",
+        "arabic",
+        "ux-writing",
+        "seo",
+        "content",
+        "email",
+        "newsletter",
+        "saudi"
+      ]
     }
   ]
 }
