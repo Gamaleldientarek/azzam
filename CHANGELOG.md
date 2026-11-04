@@ -2,6 +2,15 @@
 
 Newest first. Each section becomes the notes of its GitHub release.
 
+## 0.3.1 (2026-11-04)
+
+Ahlam Al Rouqi's notes from her 19 comments on the edit of her article, approved by Jimmy.
+
+- **One reader, not a group.** Articles and other long copy address one person, and examples open in the first person: `saudi-arabic-ux.md`, section 5. Interface copy keeps its neutral constructions.
+- **No needless shadda.** Common verbs lose the shadda; a word that could be misread keeps one mark: section 7.
+- **Word choices.** «الزائر» not «الضيف», «نقاط تواصل» not «طبقة من التواصل», «وإنما» after a negation, «كما هو موضح في» before a link: sections 2 and 6.
+- **Editing a colleague's article.** A new section in `seo-articles.md`: fix what's wrong and keep what's theirs, send the edit back before it goes live, and the closing line stays.
+
 ## 0.3.0 (2026-10-23)
 
 - **Any website, every email.** Azzam now writes for any website AZM X writes for, not only azmx.sa: the AZM X brands' sites and client sites too. For a site that is not azmx.sa, it asks for that site's facts and fields first and never borrows AZM X's evidence.

@@ -30,6 +30,8 @@ Never mix registers inside one sentence, and never change register between two s
 | «السلة»، «إتمام الطلب»، «التوصيل»، «استرداد المبلغ» | «الكارت»، «الشيك أوت»، «الدليفري»، «الريفند» | Arabic words exist and are understood; use them. |
 | «ريال»، «ر.س» | «SAR» inside an Arabic sentence | See the riyal sign in section 8. |
 | «برمجيًا»، «في البرمجة»، «عند التطوير» | «الشيفرة»، «الشيفرة البرمجية» | «الشيفرة» reads as a cipher, not as code. Name the activity instead: «ضبط الاتجاه برمجيًا». «الكود» only in developer-facing copy. |
+| «الزائر» | «الضيف» | In articles on hospitality and service (Jimmy, 4 Nov 2026). «الزوار» for the plural; «الضيافة» stays the name of the sector. |
+| «نقاط تواصل» | «طبقة من التواصل» | The moments where a product speaks to the user (Ahlam Al Rouqi). |
 
 ## 3. Words that sound Egyptian or Levantine in a Saudi product
 
@@ -66,6 +68,7 @@ Arabic verbs and adjectives carry gender. A masculine default leaves out half th
 3. **Leave pronoun endings unvoweled.** «حسابك»، «لك»، «بك» are read correctly by both men and women as long as no vowel mark fixes them.
 4. **Greet by name, not by «عزيزي».** «مرحبًا محمد» or «أهلًا بك» instead of «عزيزي العميل».
 5. **When the product knows the reader's gender** (from the profile), address them correctly; never guess from a name.
+6. **In articles and other long copy, write to one person, not to a group.** Ahlam Al Rouqi, Communication Lead: «دائمًا نخاطب المتلقي كشخص وليس كجمع». Write «تذكر»، «استخدمت»، «فاكتب»، «ابدأْ», and make every linked word follow, the closing line included: «بك» not «بكم», «منتجك» not «منتجكم». Open an example in the first person, which is also neutral: «لنفترض أن عميلًا…», not «تخيّلوا عميلًا…». Rules 1 and 2 still govern interface copy.
 
 ## 6. Arabic-first sentences
 
@@ -79,6 +82,9 @@ Translated Arabic has tells. Remove them.
 | «من خلال»، «بشكل سريع»، «سوف»، «حيث أن» | «عبر»، «بسرعة»، «سـ»، and cut «حيث أن» |
 | Filler nouns: «عملية الدفع»، «خاصية البحث» | «الدفع»، «البحث» |
 | Calques: «لا تتردد في التواصل معنا»، «اضغط هنا» | «تواصلوا معنا متى احتجتم»، a link that names its destination |
+| «بل» after a negation: «لا تعتمد على السهولة وحدها، بل على…» | «وإنما»: «لا تعتمد على السهولة وحدها، وإنما على…» (Ahlam Al Rouqi) |
+| «كما شرحنا في» before a link to another page | «كما هو موضح في» (Ahlam Al Rouqi) |
+| An institution as the subject when the sentence works without it: «ما تريد المؤسسة قوله» | Cut it: «ما تريد قوله» (Ahlam Al Rouqi) |
 
 ## 7. Spelling that signals care
 
@@ -89,7 +95,7 @@ A Saudi reader judges an interface by its hamzas before its design.
 - **Taa marbuta, not heh:** «الخدمة»، «الصفحة».
 - **Tanween before the alef:** «شكرًا»، «حاليًا»، «مثلًا», the same way across the product.
 - **Punctuation:** «،» «؛» «؟», no space before them, and «» for quotation.
-- **Vowel marks only where they prevent a misreading:** «يُرجى»، «عُدّل».
+- **Vowel marks only where they prevent a misreading:** «يُرجى»، «عُدّل». No shadda on a common verb the sentence already settles: «تدل»، «تمت»، «ترحب»، «توجه»، «تعثر» (Ahlam Al Rouqi). A word that could be read as another word keeps one mark: «تُعد» ("is considered"), so it isn't read as «تَعِد» ("promises").
 
 ## 8. Saudi formats
 
@@ -147,9 +153,9 @@ One product, one market voice. A pan-Arab product writes MSA with neutral vocabu
 
 1. Register right for the surface (section 1), and the same across the task?
 2. No Egyptian or Levantine words (section 3)?
-3. Gender-neutral where the reader is unknown (section 5)?
+3. Gender-neutral where the reader is unknown, and one reader, not a group, in articles (section 5)?
 4. Verb-first, no «قم بـ», no stacked «تم» (section 6)?
-5. Hamzas, alef maqsura and taa marbuta correct (section 7)?
+5. Hamzas, alef maqsura and taa marbuta correct, with no needless shadda (section 7)?
 6. Saudi formats right, with left-to-right fields set (section 8)?
 7. All six plural forms written for every dynamic count (section 9)?
 8. One name per service, matching the string bank?

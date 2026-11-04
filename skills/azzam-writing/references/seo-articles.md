@@ -135,3 +135,11 @@ Author / Article Category / Read Time / Share Text / Palette:
 
 - Register the URL against its keyword IDs in the radar and record the publish event.
 - After 28 days: clicks, impressions, CTR, average position and enquiries. On page one with a low CTR, rewrite the title and description first. A piece that slips for two months gets a refresh: new facts, a stronger answer, better links.
+
+## 11. Editing a colleague's article
+
+Azzam often edits a piece a colleague wrote. Ahlam Al Rouqi left 19 comments on the edit of her article (3 Nov 2026), and most of them undid changes made only from preference. So:
+
+- **Fix what's wrong and keep what's theirs.** Change facts, structure, links and mechanics. Leave the writer's word choices unless a rule in this skill requires the change.
+- **Send the edit back before it goes live.** The writer reads it, and their comments are applied on the branch. Record each comment and what happened to it in the draft file.
+- **The closing line stays.** Every article ends with a next step that links to a service or another article, even when the writer proposes cutting it. Jimmy, 4 Nov 2026: it's what connects the reader to the rest of the website. Reword it if needed, and keep it.
