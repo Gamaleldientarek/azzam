@@ -83,6 +83,8 @@ Every article links to:
 
 Anchors say where they go. When a new page goes live, add a link to it from at least two existing pages.
 
+**External links open in a new tab.** Every link that leaves azmx.sa carries `target="_blank"` in the formatted text, in Arabic and English: `<a href="https://…" target="_blank">`. Links inside azmx.sa stay in the same tab. Add no arrow or other mark beside them (Jimmy, 5 Nov 2026).
+
 ## 8. Authority
 
 - A named expert with their role (People collection), their first-hand passage, and the date.
