@@ -2,6 +2,10 @@
 
 Newest first. Each section becomes the notes of its GitHub release.
 
+## 0.3.2 (2026-11-05)
+
+- **External links open in a new tab.** In articles, every link that leaves azmx.sa carries `target="_blank"` in the formatted text, in Arabic and English; links inside the site stay in the same tab, with no arrow or other mark: `seo-articles.md`, section 7.
+
 ## 0.3.1 (2026-11-04)
 
 Ahlam Al Rouqi's notes from her 19 comments on the edit of her article, approved by Jimmy.
