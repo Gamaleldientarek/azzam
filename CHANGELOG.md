@@ -2,6 +2,16 @@
 
 Newest first. Each section becomes the notes of its GitHub release.
 
+## 0.3.3 (2026-11-05)
+
+Ahlam Al Rouqi's notes from her 88 comments on four case studies, with Jimmy's decisions. A test on 14 new lines shaped what went in: Azzam already handled the process and missed her style.
+
+- **Digits for every count.** In titles, intros and body text, in Arabic and English: `saudi-arabic-ux.md`, section 9.
+- **Word choices.** «موحّد» not «واحد» for a shared system, «الأسلوب» not «الصوت» for a brand, «السابق» not «القديم», «تتيح» not «تترك», and ten more: section 2.
+- **Sentences.** Open on a verb, not a possessive; no word twice in a sentence; plain words, not an image that only works in English; a comparative before «من»; «لجميع» not «لكافة»; «حاجة إلى»: section 6.
+- **Applying a reviewer's comments.** A new section in `seo-articles.md`: start from the live text, apply her words, read the sentence after the patch, and send what you would leave out to Jimmy in a numbered table.
+- **Case study pages.** A new section in `seo-articles.md`: third person, «إعادة تصميم», claims inside the evidence bank, company names plain, and her English register.
+
 ## 0.3.2 (2026-11-05)
 
 - **External links open in a new tab.** In articles, every link that leaves azmx.sa carries `target="_blank"` in the formatted text, in Arabic and English; links inside the site stay in the same tab, with no arrow or other mark: `seo-articles.md`, section 7.

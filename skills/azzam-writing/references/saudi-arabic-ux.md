@@ -33,6 +33,25 @@ Never mix registers inside one sentence, and never change register between two s
 | «الزائر» | «الضيف» | In articles on hospitality and service (Jimmy, 4 Nov 2026). «الزوار» for the plural; «الضيافة» stays the name of the sector. |
 | «نقاط تواصل» | «طبقة من التواصل» | The moments where a product speaks to the user (Ahlam Al Rouqi). |
 
+**Ahlam Al Rouqi's word choices on case studies, approved by Jimmy (5 Nov 2026):**
+
+| Use | Not | Note |
+|---|---|---|
+| «موحّد»، «موحّدة» | «واحد»، «واحدة» | For a shared system, language, experience or reference: «نظام تصميم موحّد»، «تجربة موحّدة»، «مرجع موحّد». English: "unified", not "one". The shadda stays, because bare «موحد» can read as another word. When the sentence sets one against many, «واحدة» stays: «لغة واحدة تخدم 6 علامات». |
+| «المجموعة والشركات التابعة لها» | «شركات المجموعة» | A group and its companies. |
+| «الأسلوب»، «الهوية» | «الصوت» | For a brand: «لكل علامة أسلوبها». «صوت العلامة» is a calque of "brand voice". English: "style", "identity". |
+| «تتيح» | «تترك» | When the sentence means "allows": «وتتيح لكل علامة…». |
+| «السابق» | «القديم» | A client's earlier product: «التطبيق السابق». English: "previous", not "old". |
+| «ذاتها»، «ذاته» | «نفسها»، «نفسه» | After a noun, for "the same": «القرارات ذاتها». |
+| «المنهجية» | «النهج» | The section label on a page. |
+| «مباشر» | «حيّ» | For "live": «موقع توثيق مباشر». |
+| «الاستنتاجات» | «الرؤى» | For "insights" drawn from research: «تحويل الاستنتاجات إلى توجه». |
+| «الاستشارات المرئية» | «استشارات الفيديو»، «عبر الفيديو» | Healthcare. |
+| «عبر التطبيق» | «عبر الشاشة» | Name the channel. |
+| «الاستقصاء» | «التقصّي» | «رحلة استقصاء». Easier to read than the tanween on «تقصٍّ». |
+| «المستخدم» | «الناس» | The people who use a product. English: "users". |
+| «مستعد» | «جاهز» | In a title about readiness: «مستعد لما هو قادم». Jimmy's choice. |
+
 ## 3. Words that sound Egyptian or Levantine in a Saudi product
 
 These read as foreign in Riyadh even when the reader understands them. Egyptian leaks most often, because it is the register many Arabic writers grew up with.
@@ -85,6 +104,12 @@ Translated Arabic has tells. Remove them.
 | «بل» after a negation: «لا تعتمد على السهولة وحدها، بل على…» | «وإنما»: «لا تعتمد على السهولة وحدها، وإنما على…» (Ahlam Al Rouqi) |
 | «كما شرحنا في» before a link to another page | «كما هو موضح في» (Ahlam Al Rouqi) |
 | An institution as the subject when the sentence works without it: «ما تريد المؤسسة قوله» | Cut it: «ما تريد قوله» (Ahlam Al Rouqi) |
+| A sentence that opens on a possessive: «لشركات المجموعة 17 منتجًا» | Verb first: «تمتلك المجموعة والشركات التابعة لها 17 منتجًا» (Ahlam Al Rouqi) |
+| The same word twice in one sentence: «أعادت تصميم التطبيق … من تطبيق واحد» | Change the second: «في مكان واحد». «تكرار الكلمة يضعف النص» (Ahlam Al Rouqi). English too. |
+| An image that only works in English: «تتراكب كما تتراكب طبقات المشروع» | Say what happens, in plain words: «تتراكم مع التمرير محاكيةً مراحل المشروع» (Ahlam Al Rouqi) |
+| A comparative before «من»: «بيانات أوضح من النظرة الأولى» reads as "clearer than the first look" | «بيانات واضحة من النظرة الأولى» |
+| «لكافة الاحتياجات» | «لجميع الاحتياجات» |
+| «دون حاجة لحساب» | «دون حاجة إلى حساب» |
 
 ## 7. Spelling that signals care
 
@@ -123,7 +148,7 @@ Arabic has six plural forms (CLDR: zero, one, two, few, many, other). A string t
 | many | 11 to 99 | «11 طلبًا» |
 | other | 100 to 102, and the rest | «100 طلب» |
 
-Use digits in interface text; spelled-out numbers from 3 to 10 reverse their gender and invite mistakes.
+Use digits for every count, in interface text, titles, intros and body text, in Arabic and in English: «5 أهداف»، «6 علامات»، "5 objectives". A title may open on a digit. Spelled-out numbers from 3 to 10 reverse their gender and invite mistakes (Ahlam Al Rouqi, 15 comments, approved by Jimmy on 5 Nov 2026). A number that follows its noun stays a word: «الشخصيات الخمس».
 
 ## 10. Occasions
 
@@ -154,7 +179,7 @@ One product, one market voice. A pan-Arab product writes MSA with neutral vocabu
 1. Register right for the surface (section 1), and the same across the task?
 2. No Egyptian or Levantine words (section 3)?
 3. Gender-neutral where the reader is unknown, and one reader, not a group, in articles (section 5)?
-4. Verb-first, no «قم بـ», no stacked «تم» (section 6)?
+4. Verb-first, no «قم بـ», no stacked «تم», no word used twice in one sentence (section 6)?
 5. Hamzas, alef maqsura and taa marbuta correct, with no needless shadda (section 7)?
 6. Saudi formats right, with left-to-right fields set (section 8)?
 7. All six plural forms written for every dynamic count (section 9)?

@@ -145,3 +145,36 @@ Azzam often edits a piece a colleague wrote. Ahlam Al Rouqi left 19 comments on 
 - **Fix what's wrong and keep what's theirs.** Change facts, structure, links and mechanics. Leave the writer's word choices unless a rule in this skill requires the change.
 - **Send the edit back before it goes live.** The writer reads it, and their comments are applied on the branch. Record each comment and what happened to it in the draft file.
 - **The closing line stays.** Every article ends with a next step that links to a service or another article, even when the writer proposes cutting it. Jimmy, 4 Nov 2026: it's what connects the reader to the rest of the website. Reword it if needed, and keep it.
+
+## 12. Applying a reviewer's comments
+
+Ahlam Al Rouqi reviews AZM X's copy. Her 88 comments on four case studies (5 Nov 2026) set this method: she proposes, Jimmy decides, Azzam applies.
+
+1. **Start from the live text.** Match each comment to the field as it stands today. The review doc can be older than the page.
+2. **Apply her words.** Change them only where a rule or a fact requires it, with the smallest edit, and record why. 72 of the 88 went in this way, 17 of them with a fix.
+3. **A comment is a patch.** Read the whole sentence with her words in it, and adjust what the grammar needs. «المكتبة» in place of «مكتبة» needed «وتضم المكتبة…».
+4. **Her note isn't text.** "(Most Common)", «حذفها», a tag or a stray quotation mark never reaches the page.
+5. **Her flag can be right when her fix isn't.** Find what she saw. «تسلّمتها المجموعة كاملة» can read as "the whole group received it", so «بشكل كامل» failed a rule and «سُلّمت كاملةً إلى المجموعة» answered her.
+6. **What you would leave out goes to Jimmy.** List it in a numbered table in the chat: where, it was, proposed. Keep any concern to one line. Write his choice as she wrote it, even against a rule here. He took hers on all 15 he saw.
+7. **Follow the change through.** The same term across the page, the English saying the same thing, the title and description matching the H1, and every line still fitting its slot.
+
+Record every comment and what happened to it. On azmx.sa the first set is in `docs/content/azzam-training/`.
+
+## 13. Case study pages
+
+- **Third person.** The page talks about the client's users, «المريض»، «المستخدم», and never to them: not «لخدمتك».
+- **A redesign stays «إعادة تصميم»** in titles, subtitles and descriptions, not «إعادة ابتكار». It's the fact, and the phrase the page is found by.
+- **Claims stay inside the evidence bank**, above all on a proof of concept. «خوارزميات», «التنبيهات المباشرة» and «فوري» go in only if the evidence says so.
+- **A comparative stays, a claim of no friction goes.** «أكثر سلاسة» is fine. «سلس» and «بسلاسة» are the banned "seamless".
+- **Check each word's sense.** Finance is «المالية»; «النقدية» means cash.
+- **Company names stay plain** until the string bank says otherwise. Ahlam writes them in «», and Jimmy took that on one page, not as a site rule.
+
+English on these pages:
+
+| Use | Not |
+|---|---|
+| "to help patients access the right care" | ", so patients reach the right care" |
+| "users" | "people" |
+| "previous app" | "old app" |
+| "Therefore," to open a conclusion | "So" |
+| A second mention in other words: "in one place" | The same noun twice in a sentence |
