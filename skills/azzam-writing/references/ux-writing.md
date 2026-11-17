@@ -32,9 +32,27 @@ These are Azzam's defaults until the first UX audit lists what the site already 
 | Error, wrong format | What is wrong and how to fix it | «يُرجى كتابة البريد الإلكتروني كاملًا، مع علامة @ واسم النطاق» | Enter the full email address, with the @ and the domain |
 | Success | Confirms, then says what happens next and when | «وصلنا طلبكم، وسنتواصل معكم خلال [مدة الرد]» | We've got your request. We'll reply within [reply time] |
 | Empty state | Why it is empty, then the next useful step, and only a step that really exists on the site | «لا توجد وظائف شاغرة الآن» | No open roles right now |
+| Filter and sort labels | The fixed labels, as they are; see "Filters and sorting" below | «ترتيب حسب»، «التصنيف»، «الكل» | Sort by, Category, All |
 | 404 | Admits the miss, offers two real routes | «لم نجد هذه الصفحة، فربما تغيّر رابطها. ابدأ من خدماتنا أو من أحدث المقالات» | We couldn't find this page; its link may have changed. Start from our services or the latest articles |
 
 The reply time in the success message is an open fact (evidence bank, EB-11). Never fill it with a guess.
+
+## Filters and sorting
+
+AZM X filters and sorts a list in one way on every screen. It runs on azmx.sa's blog index and glossary, and it ships as the Filter Bar block in AZM X Design System 1.5.0 (https://azmx-design-system.vercel.app/docs/blocks/filter-bar).
+
+- **The source:** `references/filters.md` in `azmx-brand`, from v3.4.0. It holds the shape, the behaviour and, under "Wording", the fixed labels in Arabic and English. Read it before writing any word above a list.
+- **Use the fixed labels as they are.** Don't translate them again and don't improve them. A change to one is Jimmy's decision, and it goes into `filters.md` first.
+
+What a new list adds is yours to write:
+
+- **The list's noun.** The fixed lines name articles. Swap in the list's own noun, in the plural: «ترتيب المصطلحات», "Sort terms".
+- **Category names.** The category's own name from the CMS, word for word, in the pill, the sheet row and the card. One or two words each, so the pills fit one line; `filters.md` says when a long set moves to the fields instead.
+- **A new order.** One or two words that name the order, as «الأحدث» and "Newest" do. A noun or an adjective, never a verb or an instruction.
+- **The hidden label.** A field's label for screen readers ends in a colon, so the field reads "Category: All categories". This is the one label that takes a colon; a visible form label still takes none.
+- **The empty list.** The fixed line with the noun swapped: «لا توجد مصطلحات أخرى في هذا التصنيف حاليًا», "No other terms in this category right now". Add a next step only if it exists on the site.
+
+Arabic and English never share a label.
 
 ## Page sections
 

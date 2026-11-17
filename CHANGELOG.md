@@ -2,6 +2,10 @@
 
 Newest first. Each section becomes the notes of its GitHub release.
 
+## 0.3.4 (2026-11-17)
+
+- **Filter and sort labels.** When Azzam writes the words above a list, it uses AZM X's one filter pattern. The fixed labels in Arabic and English come from `azmx-brand` (`references/filters.md`, from v3.4.0), and a new section in `ux-writing.md` covers what a new list adds: its noun, its category names, a new order's name, the hidden label's colon and the empty list. The pattern ships as the Filter Bar block in AZM X Design System 1.5.0.
+
 ## 0.3.3 (2026-11-05)
 
 Ahlam Al Rouqi's notes from her 88 comments on four case studies, with Jimmy's decisions. A test on 14 new lines shaped what went in: Azzam already handled the process and missed her style.
