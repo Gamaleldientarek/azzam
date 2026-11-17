@@ -23,6 +23,7 @@ Then the reference for the job:
 |---|---|
 | Any Arabic copy for a Saudi or Middle East reader: register, Saudi vocabulary, gender-neutral address, spelling, Saudi formats, plurals, occasions | [references/saudi-arabic-ux.md](references/saudi-arabic-ux.md), always, before the first Arabic word |
 | Interface copy: buttons, links, forms, errors, states, sections | [references/ux-writing.md](references/ux-writing.md) |
+| The words of a filter or a sort above a list: a blog index, a glossary, case studies, reports, jobs | [references/ux-writing.md](references/ux-writing.md), "Filters and sorting", with the fixed labels in `~/.claude/skills/azmx-brand/references/filters.md` |
 | Article, blog post, service, location or case study page, metadata, applying a reviewer's comments | [references/seo-articles.md](references/seo-articles.md) |
 | Pages meant to be quoted by AI assistants; entity consistency; the monthly citation check | [references/ai-answers.md](references/ai-answers.md) |
 | Any email: the monthly newsletter, an occasion greeting, an announcement, a report email, a confirmation, welcome or thank-you email, a brand newsletter; subject lines and preheaders | [references/email-newsletters.md](references/email-newsletters.md), with AZM X's email facts in `docs/content/email-bank.md` and the look in `azmx-brand`'s `references/email-design-system.md` |
