@@ -27,6 +27,7 @@ Jimmy adds new skills as `azzam-<craft>` in this plugin's `skills/` folder. When
 |---|---|---|
 | **Using Superpowers** (`superpowers:using-superpowers`) | At the start of every task, before any reply, question or file read | Preloaded. Check which skill applies before you act. Apply it even when you run as a subagent: Jimmy asked for it, and his instruction overrides the skill's subagent-stop note. |
 | **AZM X Brand** (`azmx-brand`) | Any AZM X copy, voice or visual work | Preloaded. The voice, audiences and content prompts behind every word; the colours, type, chevron and image library behind every visual; the email design system behind every newsletter and email. For an AZM X brand's own site or email, follow its `references/sub-brand-voices.md`, and load the brand's own skill (`colab-design`, `majarah-design`) where you have it. |
+| **Avoid AI Writing** (`avoid-ai-writing:avoid-ai-writing`) | Before any piece passes the gate, on its English text | Load it with the Skill tool at the audit, as `ai-writing-audit.md` in `azzam-writing` says. It reads English only; the Arabic audit is by hand, from the same reference. |
 | **Frontend Design** (`frontend-design:frontend-design`) | When your work touches a page layout, or you produce any HTML or visual, such as an article's example image or diagram | Load it with the Skill tool before you start the visual. It sets the craft; `azmx-brand` sets the colours, type and chevron, and wins where they disagree. |
 
 ## Before any piece

@@ -27,6 +27,7 @@ Then the reference for the job:
 | Article, blog post, service, location or case study page, metadata, applying a reviewer's comments | [references/seo-articles.md](references/seo-articles.md) |
 | Pages meant to be quoted by AI assistants; entity consistency; the monthly citation check | [references/ai-answers.md](references/ai-answers.md) |
 | Any email: the monthly newsletter, an occasion greeting, an announcement, a report email, a confirmation, welcome or thank-you email, a brand newsletter; subject lines and preheaders | [references/email-newsletters.md](references/email-newsletters.md), with AZM X's email facts in `docs/content/email-bank.md` and the look in `azmx-brand`'s `references/email-design-system.md` |
+| The AI-writing audit, before any piece passes the gate | [references/ai-writing-audit.md](references/ai-writing-audit.md), with the `avoid-ai-writing:avoid-ai-writing` skill for the English |
 | A ready prompt shape (blog brief, article, case study, newsletter, LinkedIn) | `~/.claude/skills/azmx-brand/references/content-prompts.md`, then the house rules here override it |
 | Any layout, HTML or visual the piece needs (an article's example image, a diagram, a section mock-up) | the `frontend-design:frontend-design` skill for the craft, with the `azmx-brand` skill for colours, type, the chevron and the image library; `azmx-brand` wins where they disagree |
 
@@ -38,7 +39,7 @@ Then the reference for the job:
 4. **Arabic draft.** The full body, written to the page's real fields (on azmx.sa, the Blog CMS shape or the template slots; on another site, its own fields). Leave one marked slot, `[EXPERT PASSAGE]`, where the expert adds what they saw first-hand.
 5. **Expert pass.** The expert writes the passage, edits and signs. Their name goes on the byline.
 6. **English.** Written as an original for an English reader, with English keywords from the radar. Same section order as the Arabic (Framer gives one page node to both languages).
-7. **Gate.** Run the tests below. Fix, then run them again.
+7. **Gate.** Run the AI-writing audit in `ai-writing-audit.md` on both languages, then the tests below. Fix, then run them again.
 8. **Hand-off.** Jimmy approves. On azmx.sa, `site-content` writes it into the CMS as a draft (backup, both languages) and Jimmy publishes. On another site, its owner places and publishes it.
 9. **Register and check.** Record the URL against its keyword IDs in the radar. After 28 days, read clicks, CTR, position and enquiries; rewrite the title if CTR is low.
 
@@ -59,6 +60,7 @@ A piece ships only when every answer is yes.
 9. **Links:** at least one service page, one related article or case study, and descriptive anchors?
 10. **Authorship:** is a named expert on the byline, with their first-hand passage in the text?
 11. **Distinct:** could a competitor paste this over their logo? If yes, sharpen it.
+12. **Written by a person:** does it pass the AI-writing audit in `ai-writing-audit.md`, in Arabic and in English, with no open findings?
 
 ## Where the work goes
 

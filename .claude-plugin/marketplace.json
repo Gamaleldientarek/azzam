@@ -5,18 +5,19 @@
     "url": "https://gamaleldien.com"
   },
   "allowCrossMarketplaceDependenciesOn": [
-    "claude-plugins-official"
+    "claude-plugins-official",
+    "conorbronsdon-skills"
   ],
   "metadata": {
     "description": "Azzam, AZM X's expert agent for Claude Code.",
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   "plugins": [
     {
       "name": "azzam",
       "source": "./",
       "description": "AZM X's expert agent. First skill: Azzam Writing, Arabic-first UX writing and content for any website AZM X writes for, and for its newsletters and emails.",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "author": {
         "name": "Gamal Eldien"
       },

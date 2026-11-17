@@ -19,7 +19,9 @@ ROOT = Path(__file__).resolve().parent.parent
 # Skills the agent must preload through its `skills` frontmatter field.
 PRELOADED = ["superpowers:using-superpowers", "azmx-brand", "azzam-writing"]
 # Skills the agent body must tell Azzam to load on demand with the Skill tool.
-ON_DEMAND = ["frontend-design:frontend-design"]
+ON_DEMAND = ["frontend-design:frontend-design", "avoid-ai-writing:avoid-ai-writing"]
+# The marketplace each outside plugin installs from; any plugin not listed comes from claude-plugins-official.
+MARKETPLACES = {"avoid-ai-writing": "conorbronsdon-skills"}
 # The one line the website copy of the agent may differ by.
 PLUGIN_SKILLS_LINE = "Jimmy adds new skills as `azzam-<craft>` in this plugin's `skills/` folder."
 WEBSITE_SKILLS_LINE = "Jimmy adds new skills as `azzam-<craft>` in `.claude/skills/`."
@@ -159,6 +161,7 @@ def check_readme():
         check(f"`{skill}`" in text, f"README names {skill}")
     check("frontend-design@claude-plugins-official" in text, "README says how to install Frontend Design")
     check("superpowers@claude-plugins-official" in text, "README says how to install Superpowers")
+    check("avoid-ai-writing@conorbronsdon-skills" in text, "README says how to install Avoid AI Writing")
     check("Meet AZZAM!" in text, "README opens with Meet AZZAM!")
 
 
@@ -194,7 +197,7 @@ def check_dependencies():
     for skill in PRELOADED + ON_DEMAND:
         if ":" in skill:
             plugin_name = skill.split(":")[0]
-            wanted = f"{plugin_name}@claude-plugins-official"
+            wanted = f"{plugin_name}@{MARKETPLACES.get(plugin_name, 'claude-plugins-official')}"
             check(wanted in names, f"plugin.json depends on {wanted}")
     for name in names:
         market_name = name.split("@")[1] if "@" in name else "azzam"
