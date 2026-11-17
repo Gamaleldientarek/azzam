@@ -2,6 +2,12 @@
 
 Newest first. Each section becomes the notes of its GitHub release.
 
+## 0.3.5 (2026-11-17)
+
+- **The AI-writing audit.** Every piece now passes an audit for machine-made habits before the gate, in both languages. A new reference, `references/ai-writing-audit.md`, holds it: the English audit runs with the Avoid AI Writing skill (`avoid-ai-writing:avoid-ai-writing`), and the Arabic audit is by hand, from AZM X's own list of words and counts. The pull quote never repeats a body sentence.
+- **The gate.** A twelfth test: the piece passes the audit in Arabic and in English, with no open findings.
+- **A fourth outside skill.** The plugin declares Avoid AI Writing from the `conorbronsdon-skills` marketplace as a dependency, and the agent loads it with the Skill tool at the audit. The README has the install lines.
+
 ## 0.3.4 (2026-11-17)
 
 - **Filter and sort labels.** When Azzam writes the words above a list, it uses AZM X's one filter pattern. The fixed labels in Arabic and English come from `azmx-brand` (`references/filters.md`, from v3.4.0), and a new section in `ux-writing.md` covers what a new list adds: its noun, its category names, a new order's name, the hidden label's colon and the empty list. The pattern ships as the Filter Bar block in AZM X Design System 1.5.0.
